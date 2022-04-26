@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(201, 200, 200);
+  width: 400px;
+  height: 350px;
+  background: white;
+  margin-bottom: 40px;
+  text-align: center;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 194, 151);
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  width: 23%;
+  object-fit: cover;
+  display: flex;
+  margin-left: 500px;
+}
+
+.name {
+  color: rgb(111, 223, 193);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: 40px;
+  justify-content: space-between;
+}
+
+.top {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
